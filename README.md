@@ -1,5 +1,5 @@
 # Turtle-Llama-3 Fine-Tune 
-I successfully fine-tuned the Llama 3 8B model to further specialize in turtles (since I like them).
+I successfully fine-tuned the Llama 3 8B model to further specialize in turtles (since I like turtles).
 
 ## Project 🐢
 * **Goal:** Create a model that gives accurate facts about turtles, avoiding generic AI hallucinations.
