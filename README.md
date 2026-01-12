@@ -6,6 +6,30 @@ I successfully fine-tuned the Llama 3 8B model to further specialize in turtles.
 * **Method:** Used Unsloth for efficient LoRA fine-tuning on a Tesla T4 GPU (Google Colab).
 * **Dataset:** Custom synthetic JSONL dataset containing species facts, biology, and care instructions for turtles.
 
+## 💻 Local Web Interface 
+I developed a custom chat interface so you can interact with the model locally without writing code.
+
+![UI Demo](ui_demo.png)
+
+### How to Run the App (Windows)
+I included a `Start.bat` script that automates the setup (checks for dependencies, configures local server, and launches the UI).
+
+1. **Download the Model:**
+   * Download `model-unsloth.gguf` from my [Hugging Face](https://huggingface.co/YOUR_HF_USERNAME/turtle-llama-3-gguf).
+   * **Rename it** to `model.gguf`.
+   * Place it in the main folder (next to `Start.bat`).
+
+2. **Launch:**
+   * Double-click `Start.bat`.
+   * It will automatically initialize the local inference server (Ollama) and open the chat window in your browser.
+
+## 🚀 Quick Start (Python Script)
+If you prefer running the raw Python inference script:
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   
 ## Quick Start 
 To run this model on your own computer (CPU supported):
 
