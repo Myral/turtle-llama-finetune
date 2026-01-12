@@ -30,12 +30,6 @@ If you prefer running the raw Python inference script:
    ```bash
    pip install -r requirements.txt
    
-## Quick Start 
-To run this model on your own computer (CPU supported):
-
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
    
 2. **Run Inference:**
    ```bash
